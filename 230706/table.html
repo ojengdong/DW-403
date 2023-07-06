@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <!-- tr : 테이블 줄 
+         td : 테이블 칸
+         td태그의 width값은 가장 큰 값기준으로 
+         너비가 정해진다. (같은열에만 적용)
+    -->
+
+    <table border="3">
+        <tr>
+            <td width="50" height="50"></td>
+            <td width="200"></td>
+            <td width="50"></td>
+        </tr>
+
+        <tr>
+            <td height="50"></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td height="50"></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td height="50"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr height="80">
+            <td></td>
+            <td colspan="4"></td>
+        </tr>
+
+        <tr height="80">
+            <td></td>
+            <td colspan="4"></td>
+        </tr>
+
+        <tr height="80">
+            <td width="50" rowspan="4"></td>
+            <td width="80"></td>
+            <td width="300" colspan="3"></td>
+        </tr>
+
+        <tr height="80">
+            <td rowspan="3"></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+
+        <tr height="80">
+            <td width="30"></td>
+            <td width="30"></td>
+            <td width="300"></td>
+        </tr>
+
+        <tr height="80">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr height="80">
+            <td width="100"></td>
+            <td width="100" colspan="3"></td>
+        </tr>
+        <tr height="80">
+            <td width="100" rowspan="3"></td>
+            <td width="100" rowspan="2"></td>
+            <td width="100"></td>
+            <td width="100" rowspan="2"></td>
+        </tr>
+        <tr height="80">
+            <td width="100"></td>
+        </tr>
+        <tr height="80">
+            <td width="100" colspan="4"></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th width="50">번호</th>
+            <th width="200">이름</th>
+            <th width="100">성적</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>김유신</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>이순신</td>
+            <td>98</td>
+        </tr>
+    </table>
+</body>
+</html>
