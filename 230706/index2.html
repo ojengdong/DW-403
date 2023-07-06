@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table4</title>
+    <style>
+        /* css영역 */
+
+        .item {
+            border: 2px dashed gray; 
+            width: 200px;
+            height: 50px;
+            text-align: center; /* 수평정렬 */
+            vertical-align: bottom;
+        }
+
+        .item:hover {
+            background-color: red;
+        }
+
+        #box {
+            border-spacing: 0;
+            background-color: skyblue;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- css에서 html태그에 모양을 주려면
+        어떤 태그에 적용할 것인지 선택해야한다.
+        css에서 선택자라고 하는데 어떤 태그를 선택할 것인지
+        선택자로 선택한다.
+        선택자의 종류로는 태그이름, id, class, name 등이 있다.
+     -->
+    <table id="box">
+        <tr>
+            <td class="item">1</td>
+            <td class="item">2</td>
+            <td class="item">3</td>
+        </tr>
+        <tr>
+            <td class="item">4</td>
+            <td class="item">5</td>
+            <td class="item">6</td>
+        </tr>
+    </table>
 </body>
 </html>
