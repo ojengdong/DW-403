@@ -1,0 +1,46 @@
+/* 
+css를 이용해서 html에 모양, 색, 크기를 적용하려면 
+html을 선택해야된다.
+선택하는 방법 - id(#), class(.) tag
+*/
+#resume {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: right;
+}
+
+.intro {
+    font-size: 12px;
+}
+
+.need {
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+.need:focus {
+    outline: none;
+}
+
+select[name=part] {
+    width: 172px;
+}
+
+input[type=date] {
+    width: 172px;
+    font-size: 20px;
+}
+
+input[type=number] {
+    width: 70px;
+}
+
+#selfIntro {
+    width: 350px;
+    height: 150px;
+    resize: none;
+    overflow: hidden;
+}

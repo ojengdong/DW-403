@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>엘지전자 2023년도 공채 입사지원 페이지</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="apply.app" id="apply" method="get">
+        <table id="resume">
+            <tr>
+                <td class="title">아이디</td>
+                <td><input type="text" name="userId" class="need"></td>
+            </tr>
+
+            <tr>
+                <td class="title">비밀번호</td>
+                <td><input type="password" name="userPw" class="need"></td>
+            </tr>
+
+            <tr>
+                <td class="title">성명</td>
+                <td><input type="text" name="userName" class="need"></td>
+            </tr>
+
+            <tr>
+                <td class="title">생년월일</td>
+                <td><input type="date" name="userBirth"></td>
+            </tr>
+
+            <tr>
+                <td class="title">지원부서</td>
+                <td>
+                    <select name="part" id="">
+                        <option value="">지원부서 선택</option>
+                        <option value="1">개발팀</option>
+                        <option value="2">디자인팀</option>
+                        <option value="3">컨설팅팀</option>
+                        <option value="4">경영지원팀</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="title">희망연봉</td>
+                <td>
+                    <input type="number" step="50" min="2800" max="4000" name="annual">
+                    <input type="radio" name="consul">면접 후 결정
+                </td>
+            </tr>
+
+            <tr>
+                <td class="title">국적</td>
+                <td>
+                    <input type="radio" name="mational">내국인
+                    <input type="radio" name="mational">외국인
+                </td>
+            </tr>
+
+            <tr>
+                <td class="title intro">자기소개서(300자 미만)</td>
+                <td><textarea id="selfIntro" maxlength="300"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button type="button">제출버튼</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
