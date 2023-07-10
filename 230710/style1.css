@@ -1,0 +1,35 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#box1 {
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+}
+
+#box2 {
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+}
+
+.logo-box {
+    width: 200px;
+    float: left;
+}
+
+.logo-box img {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menuTitle {
+    float: left;
+    margin-left: 80px;
+}
