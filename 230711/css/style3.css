@@ -1,0 +1,26 @@
+.imgWrap {
+    background-image: url(https://picsum.photos/500/500);
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s linear;
+}
+
+.img-box:hover .imgWrap  {
+    transform: scale(1.5);
+}
+
+.img-box {
+    width: 300px;
+    overflow: hidden;
+}
+
+#red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: background-color 1s linear;
+}
+
+#red:hover {
+    background-color: yellow;
+}
