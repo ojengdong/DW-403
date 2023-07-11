@@ -4,18 +4,6 @@
     border: 1px solid black;
 }
 
-#box1 {
-    border: 1px solid red;
-    height: 50px;
-    width: 100%;
-}
-
-#box2 {
-    border: 1px solid blue;
-    width: 300px;
-    height: 100px;
-}
-
 .logo-box {
     width: 200px;
     float: left;
@@ -32,4 +20,18 @@
 .menuTitle {
     float: left;
     margin-left: 80px;
+}
+
+#box2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.items{
+    width: 300px;
+    border: 2px solid red;
+    /* overflow: hidden; */
 }

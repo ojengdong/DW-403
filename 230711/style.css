@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grade {
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+#grade th,
+#grade td {
+    border-bottom: 1px solid red;
+    border-right: 1px solid green;
+}
+
+#grade th:last-of-type,
+#grade td:last-of-type {
+    border-right: none;
+}
+
+#spec {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+#spec th,
+#spec td {
+    padding: 0.2em;
+}
+#spec th {
+    background-color: antiquewhite;
+}
