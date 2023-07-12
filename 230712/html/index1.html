@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 변수 - 데이터를 저장하는 메모리공간
+        // 데이터 -숫자, 문자
+        // 숫자,특수문자 들어간 변수는 안된다.
+        // 하지만 _는 된다.
+        // A,a 는 다른 변수
+        // A = 100;
+        // a = 10;
+        // 나변수 = 20;
+        // 너도변수 = 30;
+        // 상현이도변수 = 40;
+        // bbb = 50;
+        // apple = "아이폰";
+        
+
+        // let name = "여상현";
+        // var age = 24;
+        // const pi = 3.14
+        // let 타입은 데이터 변경은 가능하지만 같은 이름의 변수를
+        //      다시 생성(재선언) 할 수 없다.
+        // var 타입은 데이터 변경 가능하고 같은 이름의 변수를
+        //     재선언 할 수 있다.
+        // const 타입은 처음 저장한 데이터를 변경 시킬 수 없고,
+        //       재선언 할 수 없다.
+        
+        // 입력 -> 저장 -> 실행 -> 출력
+        //  = : 대입연산자 (오른쪽의 값을 왼쪽에 저장)
+        // var name = prompt(); //입력 후 저장
+        // alert(name); // 출력
+        // 자바스크립트에서 문자를 표현하려면  
+        // "" 또는 '' 문자를 감싸주어야 한다.
+        // 자바스크립트에서 html 태그는 문자로 표현 할 수 있다.
+        // document.write("<b>"+name+"</b>");
+        // document : 현재 html 문서
+
+        // 변수는 새로운 데이터가 발생되면 변수에 저장하기
+        // var number1 = Number(prompt("숫자를 입력하세요"));
+        // var number2 = parseInt(prompt("두번째 숫자를 입력하세요"));
+
+        // // document.write(typeof(number1))
+        // var result = number1 + number2
+        // document.write(result);
+        // 국어, 수학, 영어 3과목의 점수를 입력받아 총점을 출력하시오.
+        var kor = Number(prompt("국어점수"));
+        var mat = parseInt(prompt("수학점수"));
+        var eng = parseInt(prompt("영어점수"));
+
+        var total = kor + mat + eng;
+        document.write("총점 : <b>"+total+"</b>점");
+
+        // 과제 
+        // 사각형의 너비와 높이를 입력받아서 넓이가 얼마인지 출력하시오.
+
+    </script>
+</body>
+</html>
