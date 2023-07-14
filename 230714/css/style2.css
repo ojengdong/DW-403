@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+body {
+    background-color: #2a283e;
+    color: #cdcdcd;
+}
+
+#wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    position: relative;
+}
+
+#header .title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#header .title h2 {
+    border-bottom: 1px solid #aaa;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#header .navigation {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#header .navigation .nav {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#header .navigation .nav .nav-menu {
+    width: 900px;
+    display: flex;
+    transition: left 1s ease;
+    position: relative;
+    left: 0;
+}
+
+#header .navigation .nav .nav-menu li {
+    width: 180px;
+    text-align: center;
+}
+
+/* 아이콘 */
+#header .navigation .dicrection p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    cursor: pointer;
+}
+
+#header .navigation .dicrection .prev {
+    left: -10px;
+}
+
+#header .navigation .dicrection .next {
+    right: -10px;
+}
+
+#section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section .list_box {
+    border-spacing: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#section .list_box tr td {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#section .list_box .name span {
+    display: inline-block;
+    width: 48px;
+    position: relative;
+}
+
+#section .list_box .name span::after {
+    content: "";
+    width: 48px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+#section .list_box .name span:hover:after {
+    border-bottom: 2px solid orange;
+}
