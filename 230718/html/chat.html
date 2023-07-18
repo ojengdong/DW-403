@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" 
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+    crossorigin="anonymous"></script>
+    <style>
+        #wrap {width: 500px; margin: 0 auto;}
+        #chat_list{padding: 0 ; margin: 0; list-style: none;}
+        #chat_list li {
+            margin: 10px 0;
+            border-bottom: 2px solid #adadad;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div>
+           작성자 : <input type="text" id="name" value="상현"><br>
+           내용 : <textarea name="" id="content" cols="50" rows="3"></textarea>
+           <button id="send">보내기</button>
+        </div>
+        <ul id="chat_list">
+
+        </ul>
+    </div>
+    <script src="../js/chat.js"></script>
+</body>
+</html>
